@@ -1,9 +1,7 @@
 # Learning Performance Testing
 
 This a peak learning performance testing project. Where I'm using five http requests to perform my task. Besides this I'm using three listener to see the result & report of the task. Depending on the circumstances, I have also used user defined variables, http header manager and json extractor. To see the graph of endurence testing and spike testing I've also attached a ultimate thread group.
-```console
-npm install -g newman-reporter-htmlextra
-```
+
 
 ## Screenshots
 ### Thread Group
@@ -43,7 +41,9 @@ npm install -g newman-reporter-htmlextra
 ![Spike Testing](https://github.com/SaifullaKamran/Learning-Performance-Testing/blob/master/Project%20Pictures/Spike%20Testing.png?raw=true)
 
 ## Command for html report
-```console jmeter -n -t project1_t1200.jmx -l report\project1_t1200.jtl ```
+```console
+jmeter -n -t project1_t1200.jmx -l report\project1_t1200.jtl
+```
 - jmeter -g report\project1_t1200.jtl -o report\project1_t1200.html
 ### Test and Report information for 1200 threads
 ![Test and Report information](https://github.com/SaifullaKamran/Learning-Performance-Testing/blob/master/Project%20Pictures/Test%20and%20Report%20information_t1200.png?raw=true)
