@@ -1,7 +1,9 @@
 # Learning Performance Testing
 
 This a peak learning performance testing project. Where I'm using five http requests to perform my task. Besides this I'm using three listener to see the result & report of the task. Depending on the circumstances, I have also used user defined variables, http header manager and json extractor. To see the graph of endurence testing and spike testing I've also attached a ultimate thread group.
-
+```console
+npm install -g newman-reporter-htmlextra
+```
 
 ## Screenshots
 ### Thread Group
